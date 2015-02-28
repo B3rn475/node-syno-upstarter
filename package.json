@@ -1,9 +1,9 @@
 {
   "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
-  "name": "upstarter",
-  "description": "Easily create upstart services for your node apps",
+  "name": "syno-upstarter",
+  "description": "Easily create upstart services for your node apps on synology systems",
   "version": "0.2.6",
-  "bin": "./bin/upstarter",
+  "bin": "./bin/syno-upstarter",
   "dependencies": {
     "handlebars": "~1.0.5beta",
     "commander": "~1.0.4",
@@ -14,14 +14,14 @@
   "optionalDependencies": {},
   "keywords": [
     "upstart",
-    "ubuntu",
+    "synology",
     "service",
     "daemon",
     "daemonize"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/carlos8f/node-upstarter.git"
+    "url": "https://github.com/B3en475/node-syno-upstarter.git"
   },
   "engines": {
     "node": ">= 0.6.0"
