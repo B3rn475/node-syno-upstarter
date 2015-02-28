@@ -39,8 +39,8 @@ if (~idx) {
 
 program.parse(process.argv);
 
-program.start = 'started networking';
-program.stop = 'runlevel [016]';
+program.start = 'syno.share.ready and syno.network.ready';
+program.stop = 'runlevel [06]';
 
 var template = Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'service.hbs'), 'utf8'));
 
