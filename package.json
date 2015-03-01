@@ -1,7 +1,7 @@
 {
-  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "author": "Carlo Bernaschina (http://bernaschina.com/)",
   "name": "syno-upstarter",
-  "description": "Easily create upstart services for your node apps on synology systems",
+  "description": "Easily create upstart services for your node apps on Synology NAS",
   "version": "0.2.6",
   "bin": "./bin/syno-upstarter",
   "dependencies": {
