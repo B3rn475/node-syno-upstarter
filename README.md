@@ -1,15 +1,15 @@
-upstarter
+syno-upstarter
 ---------
 
 Easily create upstart services for your node daemons
 
-Made for Ubuntu. Sorry, everyone else.
+This is a porting of [carlos8f/node-upstarter](https://github.com/carlos8f/node-upstarter) made for Synology NAS.
 
 Idea
 ====
 
 So you made your cool Node.js HTTP server thing, but how do you run it as a proper
-service when your system boots?
+service when your Synology Nas boots?
 
 **upstarter** to the rescue!
 
@@ -17,7 +17,7 @@ Install
 =======
 
 ```bash
-$ npm install -g upstarter
+$ npm install -g syno-upstarter
 ```
 
 Usage
@@ -26,7 +26,7 @@ Usage
 In the root of your project, run:
 
 ```bash
-$ sudo upstarter
+$ sudo syno-upstarter
 ```
 
 **upstarter** will ask you some stuff. When the survey is complete, you'll have
