@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/B3en475/node-syno-upstarter.git"
+    "url": "https://github.com/B3rn475/node-syno-upstarter.git"
   },
   "engines": {
     "node": ">= 0.6.0"
